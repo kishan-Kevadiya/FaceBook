@@ -1,0 +1,129 @@
+.messagesender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.messageSender-top{
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding-bottom: 15px;
+    padding: 15px;
+}
+.messageSender-top form {
+    display: flex;
+    flex: 1;
+}
+.messageSender-top form input{
+   outline-width: 0;
+   border: none;
+   padding: 5px 20px;
+   margin: 0 10px;
+   border-radius: 999px;
+   width: 15vw;
+   font-size: 1vw;
+}
+.messageSender-top form button{
+   display: none;
+}
+.messageSender-top form .messageSender-input{
+    flex: 1;
+}
+.messageSender-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 35px;
+}
+.messageSender-bottom .messageSender-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.messageSender-bottom .messageSender-option h3{
+    font-size: 17px;
+    padding-left: 3px;
+    color: gray;
+    width: 10rem;
+    transition: all 0.2s;
+}
+.messageSender-bottom .messageSender-option h3:hover{
+    /* font-size: 19px; */
+    /* padding-left: 3px; */
+    color: rgb(95, 94, 94);
+}
+
+
+
+
+@media screen and (max-width:376px){
+    .messagesender{
+       /* display: none; */
+       overflow: hidden;
+       width: 100%;
+    }
+    .messageSender-top{
+        display: flex;
+        border-bottom: 1px solid #eff2f5;
+        padding-bottom: 15px;
+        padding: 15px;
+    }
+    .messageSender-top form {
+        display: flex;
+        flex: 1;
+    }
+    .messageSender-top form input{
+       outline-width: 0;
+       border: none;
+       padding: 9px 30px;
+       margin: 0 10px;
+       border-radius: 999px;
+       width: 50vw;
+       font-size: 3vw;
+       margin-top: 10px;
+    }
+    .messageSender-top form .msg-inp{
+        display: flex;
+        flex-direction: column;
+    }
+    .messageSender-top form .msg-button{
+       display: inline-block;
+       padding: 0px 10px;
+       border: 1px solid #555;
+       border-radius: 6px;
+       font-size: 10px;
+       background-color: #3d9eff;
+       color: #555;
+       font-weight: 900;
+    }
+    .messageSender-top form .messageSender-input{
+        flex: 1;
+    }
+    .messageSender-bottom{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px 20px;
+    }
+    .messageSender-bottom .messageSender-option{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .messageSender-bottom .messageSender-option h3{
+        font-size: 12px;
+        padding-left: 3px;
+        color: gray;
+        width: 5rem;
+        transition: all 0.2s;
+    }
+    .messageSender-bottom .messageSender-option h3:hover{
+        /* font-size: 19px; */
+        /* padding-left: 3px; */
+        color: rgb(95, 94, 94);
+    }
+}

@@ -1,0 +1,21 @@
+.feed{
+    flex: 1;
+    padding: 30px 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:376px){
+
+    .feed{
+        padding: 10px 0px;
+        /* overflow: hidden; */
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

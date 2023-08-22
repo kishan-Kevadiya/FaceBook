@@ -1,0 +1,34 @@
+.login{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login >div >img{
+    object-fit: contain;
+    height: 150px;
+}
+.login >div{
+    display: flex;
+    flex-direction: column;
+}
+.login button  {
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+}
+.login button:hover{
+    /* width: 300px; */
+    background-color: #eff2f5;
+    color:  #2e81f4;
+    /* border: 1px solid #2e81f4; */
+    /* font-weight: 800; */
+}
+.GoogleAuth{
+    width: 22px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}

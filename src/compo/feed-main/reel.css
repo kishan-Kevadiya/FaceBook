@@ -1,0 +1,53 @@
+.reel{
+    position:relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+    margin-right: 18px;
+    transition: transform 150ms ease-in;
+   
+}
+
+
+.reel:hover{
+    transform: scale(1.07);
+}
+.reel-avatar{
+    margin: 10px;
+    border: 5px solid blue;
+}
+
+.reel h4{
+    position: absolute;
+    bottom: 20px;
+    left: 12px;
+    color: aliceblue;
+}
+
+
+
+
+@media screen and (max-width: 376px) {
+    .reel {
+        width: 50vw;
+        height: 11rem;
+        
+    }
+    
+    .reel-avatar {
+        font-size: small;
+    }
+    
+    .reel h4 {
+        position: absolute;
+        bottom: 20px;
+        left: 12px;
+        color: aliceblue;
+        font-size: 12px;
+    }
+}

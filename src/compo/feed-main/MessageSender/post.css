@@ -1,0 +1,127 @@
+.post{
+    width: 40%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    padding: 10px 5vw;
+}
+
+.post-top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.post-avatar{
+    margin-right: 10px;
+}
+.posttop-info h3{
+    font-size: medium;
+}
+.posttop-info p{
+    font-size: small;
+    color: gray;
+}
+.post-bottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    font-family: cursive;
+}
+.post-options{
+    margin-top: 8px;
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+.post-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+.post-option:hover{
+    background-color: #eff2f5;
+    border-radius: 8px;
+}
+.post-option p {
+    margin-left: 3px;
+}
+
+
+
+@media screen and (max-width: 376px){
+    .post{
+        width: 90.5%;
+        margin-top: 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+        padding: 10px 5vw;
+    }
+    
+    .post-top {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .post-img img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .post-avatar{
+        margin-right: 10px;
+    }
+    .posttop-info h3{
+        font-size: medium;
+    }
+    .posttop-info p{
+        font-size: small;
+        color: gray;
+    }
+    .post-bottom{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px 20px;
+        font-family: cursive;
+    }
+    .post-options{
+        margin-top: 8px;
+        padding-top: 10px;
+        border-top: 1px solid lightgray;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: medium;
+        color: gray;
+        cursor: pointer;
+        padding: 15px;
+    }
+    .post-option{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        flex: 1;
+    }
+    .post-option:hover{
+        background-color: #eff2f5;
+        border-radius: 8px;
+    }
+    .post-option p {
+        margin-left: 3px;
+    }
+}

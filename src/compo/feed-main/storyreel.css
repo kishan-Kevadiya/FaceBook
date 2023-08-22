@@ -1,0 +1,42 @@
+.storyreel{
+    display: flex;
+    overflow-x: auto;
+    width:89%;
+    height: 29vh;
+    padding: 20px;
+}
+
+
+
+@media only screen and(max-width:376px){
+    .storyreel{
+         display: flex;
+         /* max-width: 50vw; */
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        width:89%;
+        height: 20vh;
+        padding: 0px;
+    }
+    
+    .storyreel::-webkit-scrollbar{
+        width: 0px;
+    }
+}
+
+
+@media only screen and(max-width:310px){
+    .storyreel{
+         display: flex;
+         /* max-width: 50vw; */
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        width:89%;
+        height: 20vh;
+        padding: 0px;
+    }
+    
+    .storyreel::-webkit-scrollbar{
+        width: 0px;
+    }
+}

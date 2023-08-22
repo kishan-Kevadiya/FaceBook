@@ -1,0 +1,231 @@
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    background-color: #fff;
+    z-index: 100;
+    top: 0%;
+}
+
+.header .header-left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color:#eff2f5;
+    margin-left: 10px;
+    border-radius: 999px;
+    padding: 10px;
+}
+
+.header .header-left img{
+    height:40px;
+    /* border-radius: 50%; */
+} 
+ .header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    font-size: 15px;
+    margin-left: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.header-middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.header-option .MuiSvgIcon-root{
+    /* cursor: pointer; */
+    color: gray;
+    /* padding: 10px; */
+}
+.header-option:hover .MuiSvgIcon-root{
+    color: blue;
+    /* border-bottom: 1px solid blue; */
+}
+.header-option {
+    cursor: pointer;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+.h-option-active .MuiSvgIcon-root{
+    color: blue;
+    border-bottom: 3px solid blue;
+    width:4.5vw;
+    /* padding-bottom: 3px; */
+}
+.header-option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 2.5rem;
+    border-bottom: none;
+}
+.header-right{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.header-info{
+    display: flex;
+    align-items: center;
+}
+.header-info h4{
+    margin:0 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:376px){
+    .header{
+       display: block;
+       margin: 0;
+       width: 90.5%;
+    }
+    
+    .header .header-left {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1px;
+    }
+    
+    .header-input{
+        display: flex;
+        align-items: right;
+        background-color:#eff2f5;
+        margin-left: 10px;
+        border-radius: 999px;
+        padding: 8px;
+        justify-content: space-around;
+    }
+/* 
+    .header-content::before{
+    } */
+    
+    .header .header-left img::before{
+        height:40px;
+        /* border-radius: 50%; */
+        display: flex;
+        align-content: left;
+    } 
+     .header-input input{
+        border: none;
+        background-color: transparent;
+        outline-width: 0;
+        font-size: 13px;
+        margin-left: 5px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        justify-content: right;
+    } 
+    .header-middle{
+        display: flex;
+        flex:1;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #bdb9b9;
+        margin-top: 2px;
+    }
+    .header-option .MuiSvgIcon-root{
+        /* cursor: pointer; */
+        color: gray;
+        /* padding: 10px; */
+        font-size: 20px;
+    }
+    .header-option:hover .MuiSvgIcon-root{
+        color: blue;
+        /* border-bottom: 1px solid blue; */
+    }
+    .header-option {
+        cursor: pointer;
+        /* padding: 10px 15px; */
+        display: flex;
+        align-items: center;
+        padding: 8px 10px;
+    }
+    .h-option-active .MuiSvgIcon-root{
+        color: blue;
+        border-bottom: 3px solid blue;
+    }
+    .header-option:hover{
+        background-color: #eff2f5;
+        border-radius: 10px;
+        align-items: center;
+        /* padding: 0 2.5rem; */
+        border-bottom: none;
+    }
+    .header-right{
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+    .header-info{
+        display: flex;
+        align-items: center;
+    }
+    .MuiAvatar-img {
+        color: transparent;
+        width: 80%;
+        height: 75%;
+        object-fit: cover;
+        text-align: center;
+        text-indent: 10000px;
+    }
+    .header-info h4{
+        margin:0 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
